@@ -7,7 +7,8 @@ class Xcmutate < Formula
   sha256 "5fe28d9b60c86e39ba30d1e35154590f57c9e54b7cda1071826ff2bbe2abb208"
   license "MIT"
 
-  # `brew install --HEAD xcmutate` builds from the sources (several minutes: swift-syntax; needs Swift 6.3 or newer; checked with Xcode 26.6 and 27.2).
+  # `brew install --HEAD xcmutate` builds from the sources (several minutes: swift-syntax).
+  # It needs Swift 6.3 or newer; checked with Xcode 26.6 and 27.2.
   head do
     url "https://github.com/RyoHirota68/xcmutate.git", branch: "main"
     depends_on xcode: ["26.6", :build]
