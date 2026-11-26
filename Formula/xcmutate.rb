@@ -3,8 +3,8 @@
 class Xcmutate < Formula
   desc "Diff-driven mutation testing for Swift and Xcode projects"
   homepage "https://github.com/RyoHirota68/xcmutate"
-  url "https://github.com/RyoHirota68/xcmutate/releases/download/v0.13.0/xcmutate-0.13.0-macos-universal.tar.gz"
-  sha256 "5fe28d9b60c86e39ba30d1e35154590f57c9e54b7cda1071826ff2bbe2abb208"
+  url "https://github.com/RyoHirota68/xcmutate/releases/download/v0.14.0/xcmutate-0.14.0-macos-universal.tar.gz"
+  sha256 "8069fd840364f863c3b1dd9f4d43c220162e13018faaa8bb728bf4d51928eccb"
   license "MIT"
 
   # `brew install --HEAD xcmutate` builds from the sources (several minutes: swift-syntax).
